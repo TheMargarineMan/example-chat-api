@@ -1,0 +1,5 @@
+host: localhost
+database: chat
+user: chat_worker
+password: SuperSecret
+port: 5432
