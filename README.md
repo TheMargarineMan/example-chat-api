@@ -7,7 +7,13 @@ Python requirements are listed within `requirements.txt`. Use `pip install -r ./
 
 ### Arch Linux Users
 Arch Linux discourages the usage of `pip` and urges the use of `pacman` for installing python modules. The command to install all dependencies is 
-`sudo pacman -S python-{aniso8601,atomicwrites,attrs,certifi,charset-normalizer,click,colorama,flask{-restful},idna,importlib-metadata,iniconfig,itsdangerous,jinja,markupsafe,more-itertools,packaging,pluggy,psycopg{-pool},py,pyparsing,pytest,pytz,pyyaml,requests,six,tomli,urllib3,wcwidth,werkzeug,zipp}`
+```bash
+sudo pacman -S python-{aniso8601,atomicwrites,attrs,certifi,
+charset-normalizer,click,colorama,flask{-restful},idna,
+importlib-metadata,iniconfig,itsdangerous,jinja,markupsafe,
+more-itertools,packaging,pluggy,psycopg{-pool},py,pyparsing,pytest,
+pytz,pyyaml,requests,six,tomli,urllib3,wcwidth,werkzeug,zipp}
+```
 
 This API also requires a running instance of PostgreSQL (tested with v16.3) with a user and database owned by said user to be used by the server.
 
